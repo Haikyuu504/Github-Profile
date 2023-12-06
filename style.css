@@ -1,0 +1,169 @@
+body {
+  background-color: #262424;
+}
+.web-title {
+  font-family: 'Bebas Neue', sans-serif;
+  position: absolute;
+  left: 280px;
+  font-size: 80px;
+  color: white;
+}
+.github-profile {
+  padding: 60px;
+  padding-right: 280px;
+  padding-left: 280px;
+  padding-bottom: 400px;
+  height: 200px;
+  border-radius: 30px;
+  margin-left: 90px;
+  margin-top: 200px;
+  border-color: rgb(56, 208, 242);
+  border: solid coral;
+  animation: mymove 5s infinite;
+}
+@keyframes mymove {
+  50% {border-color: lightblue;}
+}
+.github-username {
+  font-family: sans-serif;
+  color: #fff;
+  position: absolute;
+  left: 290px;
+  top: 480px;
+  font-size: 50px;
+}
+.github-description {
+  font-family: sans-serif;
+  font-weight: bold;
+  color: #494982;
+  position: absolute;
+  left: 330px;
+  top: 550px;
+  font-size: 30px;
+}
+.facebook-logo {
+  height: 140px;
+  position: absolute;
+  top: 670px;
+  left: 180px;
+}
+.youtube-logo {
+  height: 120px;
+  position: absolute;
+  top: 670px;
+  left: 600px;
+}
+@media screen and (max-width:900px)
+{
+  body {
+  background-color: #262424;
+}
+.web-title {
+  font-family: 'Bebas Neue', sans-serif;
+  position: absolute;
+  left: 220px;
+  font-size: 70px;
+}
+.github-profile {
+  border: solid;
+  padding: 60px;
+  padding-right: 200px;
+  padding-left: 200px;
+  padding-bottom: 300px;
+  height: 100px;
+  border-radius: 10px;
+  margin-left: 130px;
+  margin-top: 200px;
+  border-color: rgb(56, 208, 242);
+  border: solid coral;
+  animation: mymove 5s infinite;
+}
+@keyframes mymove {
+  50% {border-color: lightblue;}
+}
+.github-username {
+  font-family: sans-serif;
+  color: #fff;
+  position: absolute;
+  left: 200px;
+  top: 360px;
+}
+.github-description {
+  font-family: sans-serif;
+  font-weight: bold;
+  color: #494982;
+  position: absolute;
+  left: 250px;
+  top: 430px;
+}
+.facebook-logo {
+  height: 70px;
+  position: absolute;
+  top: 568px;
+  left: 190px;
+}
+.youtube-logo {
+  height: 70px;
+  position: absolute;
+  top: 570px;
+  left: 480px;
+}
+}
+@media screen and (max-width:600px)
+{
+  body {
+  background-color: #262424;
+}
+.web-title {
+  font-family: 'Bebas Neue', sans-serif;
+  position: absolute;
+  left: 85px;
+  font-size: 40px;
+}
+.github-profile {
+  border: solid;
+  padding: 60px;
+  padding-right: 100px;
+  padding-left: 100px;
+  padding-bottom: 300px;
+  height: 100px;
+  border-radius: 10px;
+  margin-left: 20px;
+  margin-top: 100px;
+  border-color: rgb(56, 208, 242);
+  border: solid coral;
+  animation: mymove 5s infinite;
+}
+@keyframes mymove {
+  50% {border-color: lightblue;}
+}
+.github-username {
+  font-family: sans-serif;
+  color: #fff;
+  position: absolute;
+  left: 63px;
+  top: 270px;
+  font-size: 30px;
+}
+.github-description {
+  font-family: sans-serif;
+  font-weight: bold;
+  color: #494982;
+  position: absolute;
+  left: 85px;
+  top: 320px;
+  font-size: 20px;
+}
+.facebook-logo {
+  height: 70px;
+  position: absolute;
+  top: 400px;
+  left: 70px;
+}
+.youtube-logo {
+  height: 70px;
+  position: absolute;
+  top: 400px;
+  left: 200px;
+}
+}
